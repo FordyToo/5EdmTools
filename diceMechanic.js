@@ -1,6 +1,6 @@
 //create a dice rolling function
-var sides;
+var maxRoll;
 
-function roll(sides) {
-  return Math.floor(Math.random() * sides) +1;
+function roll(maxRoll) {
+  return Math.floor(Math.random() * maxRoll) +1;
 }
