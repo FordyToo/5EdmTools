@@ -22,6 +22,18 @@ var elfFamily = [
     " Amakiir", " Amastacia", " Galanodel", " Holimion", " Ilphelkiir", " Liadon", " Meliamne", " Na&iuml;lo", " Siannodel", " Xiloscient"
 ];
 
+var halflingMale = [
+    "Alton", "Ander", "Cade", "Corrin", "Eldon", "Errich", "Finnan", "Garret", "Lindal", "Lyle", "Merric", "Milo", "Osborn", "Perrin", "Reed", "Roscoe", "Wellby"
+];
+
+var halflingFemale = [
+    "Andry", "Bree", "Callie", "Cora", "Euphemia", "Jillian", "Kithri", "Lavinia", "Lidda", "Merla", "Nedda", "Paela", "Portia", "Seraphina", "Shaena", "Trym", "Vani", "Verna"
+];
+
+var halflingFamily = [
+    " Brushgather", " Goodbarrel", " Greenbottle", " High-hill", " Hilltopple", " Leagallow", " Tealeaf", " Thorngage", " Tosscobble", " Underbough"
+];
+
 function getDwarfMaleName() {
     let x = Math.floor(Math.random() * dwarfMale.length);
     let y = Math.floor(Math.random() * dwarfClan.length);
@@ -52,4 +64,20 @@ function getElfFemaleName() {
     let elfFemaleName = "";
     elfFemaleName = elfFemale[x] + elfFamily[y];
     return elfFemaleName;
+};
+
+function getHalflingMaleName() {
+    let x = Math.floor(Math.random() * halflingMale.length);
+    let y = Math.floor(Math.random() * halflingFamily.length);
+    let halflingMaleName = "";
+    halflingMaleName = halflingMale[x] + halflingFamily[y];
+    return halflingMaleName;
+};
+
+function getHalflingFemaleName() {
+    let x = Math.floor(Math.random() * halflingFemale.length);
+    let y = Math.floor(Math.random() * halflingFamily.length);
+    let halflingFemaleName = "";
+    halflingFemaleName = halflingFemale[x] + halflingFamily[y];
+    return halflingFemaleName;
 };
