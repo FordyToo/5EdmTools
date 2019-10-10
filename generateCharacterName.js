@@ -34,6 +34,26 @@ var halflingFamily = [
     " Brushgather", " Goodbarrel", " Greenbottle", " High-hill", " Hilltopple", " Leagallow", " Tealeaf", " Thorngage", " Tosscobble", " Underbough"
 ];
 
+var halfOrcMale = [
+    "Dench", "Feng", "Gell", "Henk", "Holg", "Imsh", "Keth", "Krusk", "Mhurren", "Ront", "Shump", "Thonk"
+];
+
+var halfOrcFemale = [
+    "Baggi", "Emen", "Engong", "Kansif", "Myev", "Neega", "Ovak", "Ownka", "Shautha", "Sutha", "Vola", "Volen", "Yevelda"
+];
+
+var dragonbornMale = [
+    "Arjhan", "Balasar", "Bharash", "Donaar", "Ghesh", "Heskan", "Kriv", "Medrash", "Mehen", "Nadar", "Pandjed", "Patrin", "Rhogar", "Shamash", "Shedinn", "Tarhun", "Torinn"
+];
+
+var dragonbornFemale = [
+    "Akra", "Biri", "Daar", "Farideh", "Harann", "Havilar", "Jheri", "Kava", "Korinn", "Mishann", "Nala", "Perra", "Raiann", "Sora", "Surina", "Thava", "Uadjit"
+];
+
+var dragonbornClan = [
+    "Clethtinthiallor", "Daardendrian", "Delmirev", "Drachedandion", ""
+];
+
 function getDwarfMaleName() {
     let x = Math.floor(Math.random() * dwarfMale.length);
     let y = Math.floor(Math.random() * dwarfClan.length);
@@ -80,4 +100,14 @@ function getHalflingFemaleName() {
     let halflingFemaleName = "";
     halflingFemaleName = halflingFemale[x] + halflingFamily[y];
     return halflingFemaleName;
+};
+
+function getHalfOrcMaleName() {
+    let halfOrcMaleName = halfOrcMale[Math.floor(Math.random() * halfOrcMale.length)];
+    return halfOrcMaleName;
+};
+
+function getHalfOrcFemaleName() {
+    let halfOrcFemaleName = halfOrcFemale[Math.floor(Math.random() * halfOrcFemale.length)];
+    return halfOrcFemaleName;
 };
