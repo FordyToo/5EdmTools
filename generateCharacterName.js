@@ -50,8 +50,12 @@ var dragonbornFemale = [
     "Akra", "Biri", "Daar", "Farideh", "Harann", "Havilar", "Jheri", "Kava", "Korinn", "Mishann", "Nala", "Perra", "Raiann", "Sora", "Surina", "Thava", "Uadjit"
 ];
 
+var dragonbornNickname = [
+    " Climber", " Earbender", " Leaper", " Pious", " Shieldbiter", " Zealous"
+];
+
 var dragonbornClan = [
-    "Clethtinthiallor", "Daardendrian", "Delmirev", "Drachedandion", ""
+    " Clethtinthiallor", " Daardendrian", " Delmirev", " Drachedandion", " Fenkenkabradon", " Kepeshkmolik", " Kerrhylon", " Kimbatuul", " Linxakasendalor", " Myastan", " Nemmonis", " Norixius", " Ophinshtalajiir", " Prexijandilin", " Shestendeliath", " Turnuroth", " Verthisathurgiesh", " Yarjerit"
 ];
 
 function getDwarfMaleName() {
@@ -110,4 +114,14 @@ function getHalfOrcMaleName() {
 function getHalfOrcFemaleName() {
     let halfOrcFemaleName = halfOrcFemale[Math.floor(Math.random() * halfOrcFemale.length)];
     return halfOrcFemaleName;
+};
+
+function getDragonbornMaleName() {
+    let dragonbornMaleName = dragonbornMale[Math.floor(Math.random() * dragonbornMale.length)] + dragonbornNickname[Math.floor(Math.random() * dragonbornNickname.length)] + dragonbornClan[Math.floor(Math.random() * dragonbornClan.length)];
+    return dragonbornMaleName;
+};
+
+function getDragonbornFemaleName() {
+    let dragonbornFemaleName = dragonbornFemale[Math.floor(Math.random() * dragonbornFemale.length)] + dragonbornNickname[Math.floor(Math.random() * dragonbornNickname.length)] + dragonbornClan[Math.floor(Math.random() * dragonbornClan.length)];
+    return dragonbornFemaleName;
 };
