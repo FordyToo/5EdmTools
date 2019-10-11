@@ -59,50 +59,32 @@ var dragonbornClan = [
 ];
 
 function getDwarfMaleName() {
-    let x = Math.floor(Math.random() * dwarfMale.length);
-    let y = Math.floor(Math.random() * dwarfClan.length);
-    let dwarfMaleName = "";
-    dwarfMaleName = dwarfMale[x] + dwarfClan[y];
+    let dwarfMaleName = dwarfMale[Math.floor(Math.random() * dwarfMale.length)] + dwarfClan[Math.floor(Math.random() * dwarfClan.length)];
     return dwarfMaleName;
 };
 
 function getDwarfFemaleName() {
-    let x = Math.floor(Math.random() * dwarfFemale.length);
-    let y = Math.floor(Math.random() * dwarfClan.length);
-    let dwarfFemaleName = "";
-    dwarfFemaleName = dwarfFemale[x] + dwarfClan[y];
+    let dwarfFemaleName = dwarfFemale[Math.floor(Math.random() * dwarfFemale.length)] + dwarfClan[Math.floor(Math.random() * dwarfClan.length)];
     return dwarfFemaleName;
 };
 
 function getElfMaleName() {
-    let x = Math.floor(Math.random() * elfMale.length);
-    let y = Math.floor(Math.random() * elfFamily.length);
-    let elfMaleName = "";
-    elfMaleName = elfMale[x] + elfFamily[y];
+    let elfMaleName = elfMale[Math.floor(Math.random() * elfMale.length)] + elfFamily[Math.floor(Math.random() * elfFamily.length)];
     return elfMaleName;
 };
 
 function getElfFemaleName() {
-    let x = Math.floor(Math.random() * elfFemale.length);
-    let y = Math.floor(Math.random() * elfFamily.length);
-    let elfFemaleName = "";
-    elfFemaleName = elfFemale[x] + elfFamily[y];
+    let elfFemaleName = elfFemale[Math.floor(Math.random() * elfFemale.length)] + elfFamily[Math.floor(Math.random() * elfFamily.length)];
     return elfFemaleName;
 };
 
 function getHalflingMaleName() {
-    let x = Math.floor(Math.random() * halflingMale.length);
-    let y = Math.floor(Math.random() * halflingFamily.length);
-    let halflingMaleName = "";
-    halflingMaleName = halflingMale[x] + halflingFamily[y];
+    let halflingMaleName = halflingMale[Math.floor(Math.random() * halflingMale.length)] + halflingFamily[Math.floor(Math.random() * halflingFamily.length)];
     return halflingMaleName;
 };
 
 function getHalflingFemaleName() {
-    let x = Math.floor(Math.random() * halflingFemale.length);
-    let y = Math.floor(Math.random() * halflingFamily.length);
-    let halflingFemaleName = "";
-    halflingFemaleName = halflingFemale[x] + halflingFamily[y];
+    let halflingFemaleName = halflingFemale[Math.floor(Math.random() * halflingFemale.length)] + halflingFamily[Math.floor(Math.random() * halflingFamily.length)];
     return halflingFemaleName;
 };
 
