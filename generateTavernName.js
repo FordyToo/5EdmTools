@@ -45,11 +45,7 @@ var tavernArrLast = [
 ];
 
 function getTavern() {
-    var x = Math.floor(Math.random() * tavernArrFirst.length);
-    var y = Math.floor(Math.random() * tavernArrLast.length);
-    var tavernName = "";
-    tavernName = tavernArrFirst[x] + tavernArrLast[y];
+    var tavernName = tavernArrFirst[Math.floor(Math.random() * tavernArrFirst.length)] + 
+        tavernArrLast[Math.floor(Math.random() * tavernArrLast.length)];
     return tavernName;
 }
-
-console.log(getTavern());
