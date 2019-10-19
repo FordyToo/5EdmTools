@@ -1,3 +1,19 @@
+function randomIndex(arr) {
+    let result = arr[Math.floor(Math.random() * arr.length)];
+    return result
+};
+
+// Add any of the arrays to the argument in getName to generate a random name.
+//Example: for a full name for a Male Dwarf, getName(dwarfMale, dwarfClan).
+
+function getName() {
+    let name = '';
+    for (var i = 0; i < arguments.length; i++) {
+        name += randomIndex(arguments[i]) + ' ';
+    };
+    return name;
+};
+
 var dwarfMale = [
     "Adrik", "Alberich", "Baern", "Barendd", "Brottor", "Bruenor", "Dain", "Darrak", "Delg", "Eberk", "Einkil", "Fargrim", "Flint", "Gardain", "Harbek", "Kildrak", "Morgran", "Orsik", "Oskar", "Rangrim", "Rurik", "Taklinn", "Thoradin", "Thorin", "Tordek", "Traubon", "Travok", "Ulfgar", "Veit", "Vondal"
 ];
@@ -7,7 +23,7 @@ var dwarfFem = [
 ];
 
 var dwarfClan = [
-    " Balderk", " Battlehammer", " Brawnanvil", " Dankil", " Fireforge", " Frostbeard", " Gorunn", " Holderhek", " Ironfist", " Loderr", " Lutgehr", " Rumnaheim", " Strakeln", " Torunn", " Ungart"
+    "Balderk", "Battlehammer", "Brawnanvil", "Dankil", "Fireforge", "Frostbeard", "Gorunn", "Holderhek", "Ironfist", "Loderr", "Lutgehr", "Rumnaheim", "Strakeln", "Torunn", "Ungart"
 ];
 
 var elfMale = [
@@ -19,7 +35,7 @@ var elfFem = [
 ];
 
 var elfFamily = [
-    " Amakiir", " Amastacia", " Galanodel", " Holimion", " Ilphelkiir", " Liadon", " Meliamne", " Na&iuml;lo", " Siannodel", " Xiloscient"
+    "Amakiir", "Amastacia", "Galanodel", "Holimion", "Ilphelkiir", "Liadon", "Meliamne", "Na&iuml;lo", "Siannodel", "Xiloscient"
 ];
 
 var halfMale = [
@@ -31,7 +47,7 @@ var halfFem = [
 ];
 
 var halfFamily = [
-    " Brushgather", " Goodbarrel", " Greenbottle", " High-hill", " Hilltopple", " Leagallow", " Tealeaf", " Thorngage", " Tosscobble", " Underbough"
+    "Brushgather", "Goodbarrel", "Greenbottle", "High-hill", "Hilltopple", "Leagallow", "Tealeaf", "Thorngage", "Tosscobble", "Underbough"
 ];
 
 var hOrcMale = [
@@ -51,65 +67,9 @@ var dBFem = [
 ];
 
 var dBNick = [
-    " Climber", " Earbender", " Leaper", " Pious", " Shieldbiter", " Zealous"
+    "Climber", "Earbender", "Leaper", "Pious", "Shieldbiter", "Zealous"
 ];
 
 var dBClan = [
-    " Clethtinthiallor", " Daardendrian", " Delmirev", " Drachedandion", " Fenkenkabradon", " Kepeshkmolik", " Kerrhylon", " Kimbatuul", " Linxakasendalor", " Myastan", " Nemmonis", " Norixius", " Ophinshtalajiir", " Prexijandilin", " Shestendeliath", " Turnuroth", " Verthisathurgiesh", " Yarjerit"
+    "Clethtinthiallor", "Daardendrian", "Delmirev", "Drachedandion", "Fenkenkabradon", "Kepeshkmolik", "Kerrhylon", "Kimbatuul", "Linxakasendalor", "Myastan", "Nemmonis", "Norixius", "Ophinshtalajiir", "Prexijandilin", "Shestendeliath", "Turnuroth", "Verthisathurgiesh", "Yarjerit"
 ];
-
-
-function randomIndex(arr) {
-    let result = arr[Math.floor(Math.random() * arr.length)];
-    return result
-};
-
-function getDwarfMale() {
-    let dwarfMaleName = randomIndex(dwarfMale) + randomIndex(dwarfClan);
-    return dwarfMaleName;
-};
-
-function getDwarfFem() {
-    let dwarfFemName = randomIndex(dwarfFem) + randomIndex(dwarfClan);
-    return dwarfFemName;
-};
-
-function getElfMale() {
-    let elfMaleName = randomIndex(elfMale) + randomIndex(elfFamily);
-    return elfMaleName;
-};
-
-function getElfFem() {
-    let elfFemName = randomIndex(elfFem) + randomIndex(elfFamily);
-    return elfFemName;
-};
-
-function getHalfMale() {
-    let halfMaleName = randomIndex(halfMale) + randomIndex(halfFamily);
-    return halfMaleName;
-};
-
-function getHalfFem() {
-    let halfFemName = randomIndex(halfFem) + randomIndex(halfFamily);
-    return halfFemName;
-};
-
-function getHOrcMale() {
-    let hOrcMaleName = randomIndex(hOrcMale);
-    return hOrcMaleName;
-};
-
-function getHOrcFem() {
-    let hOrcFemName = randomIndex(hOrcFem);
-    return hOrcFemName;
-};
-
-function getDBMale() {
-    let dBMaleName = randomIndex(dBMale) + randomIndex(dBNick) + randomIndex(dBClan);
-    return dBMaleName;
-};
-
-function getDBFem() {
-    let dBFemName = randomIndex(dBFem) + randomIndex(dBNick) + randomIndex(dBClan);
-    return dBFemName;
-};
