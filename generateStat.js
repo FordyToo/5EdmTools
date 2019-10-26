@@ -16,4 +16,10 @@ function generateStat() {
     return x;
 }
 
-console.log(generateStat());
+function generateStatArr() {
+    var statArr = [];
+    for (let i=0; i<6; i++) {
+        statArr.push(generateStat());
+    }
+    return statArr;
+}
