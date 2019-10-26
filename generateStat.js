@@ -1,5 +1,5 @@
 function roll(n) {
-    let result = Math.floor(Math.random() * n + 1);
+    let result = Math.floor(Math.random() * n) + 1;
     return result;
 }
 
@@ -15,3 +15,5 @@ function generateStat() {
     }; 
     return x;
 }
+
+console.log(generateStat());
