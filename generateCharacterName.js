@@ -67,9 +67,25 @@ var dragonbornFemale = [
 ];
 
 var dragonbornNickname = [
-    "Climber", "Earbender", "Leaper", "Pious", "Shieldbiter", "Zealous"
+    "'Climber'", "'Earbender'", "'Leaper'", "'Pious'", "'Shieldbiter'", "'Zealous'"
 ];
 
 var dragonbornClan = [
     "Clethtinthiallor", "Daardendrian", "Delmirev", "Drachedandion", "Fenkenkabradon", "Kepeshkmolik", "Kerrhylon", "Kimbatuul", "Linxakasendalor", "Myastan", "Nemmonis", "Norixius", "Ophinshtalajiir", "Prexijandilin", "Shestendeliath", "Turnuroth", "Verthisathurgiesh", "Yarjerit"
+];
+
+var gnomeMale = [
+    "Alston", "Alvyn", "Boddynock", "Brocc", "Burgell", "Dimble", "Eldon", "Erky", "Fonkin", "Frug", "Gerbo", "Gimble", "Glim", "Jebeddo", "Kellen", "Namfoodle", "Orryn", "Roondar", "Seebo", "Sindri", "Warryn", "Wrenn", "Zook"
+];
+
+var gnomeFemale = [
+    "Bimpnottin", "Breena", "Caramip", "Carlin", "Donella", "Duvamil", "Ella", "Ellyjobell", "Ellywick", "Lilli", "Loopmottin", "Lorilla", "Mardnab", "Nissa", "Nyx", "Oda", "Orla", "Roywyn", "Shamil", "Tana", "Waywocket", "Zanna"
+];
+
+var gnomeClan = [
+    "Beren", "Daergel", "Folkor", "Garrick", "Nackle", "Murnig", "Ningel", "Raulnor", "Scheppen", "Timbers", "Turren"
+];
+
+var gnomeNickname = [
+    "'Aleslosh'", "'Ashhearth'", "'Badger'", "'Cloak'", "'Doublelock'", "'Filchbatter'", "'Fnipper'", "'Ku'", "'Nim'", "'Oneshoe'", "'Pock'", "'Sparklegem'", "'Stumbleduck'"
 ];
