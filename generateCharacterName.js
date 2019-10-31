@@ -89,3 +89,15 @@ var gnomeClan = [
 var gnomeNickname = [
     "'Aleslosh'", "'Ashhearth'", "'Badger'", "'Cloak'", "'Doublelock'", "'Filchbatter'", "'Fnipper'", "'Ku'", "'Nim'", "'Oneshoe'", "'Pock'", "'Sparklegem'", "'Stumbleduck'"
 ];
+
+var infernalMale = [
+    "Akmenos", "Amnon", "Barakas", "Damakos", "Ekemon", "Iados", "Kairon", "Leucis", "Melech", "Mordai", "Morthos", "Pelaios", "Skamos", "Therai"
+];
+
+var infernalFemale = [
+    "Akta", "Anakis", "Bryseis", "Criella", "Damaia", "Ea", "Kallista", "Lerissa", "Makaria", "Nemeia", "Orianna", "Phelaia", "Rieta"
+];
+
+var virtueNames = [
+    "Art", "Carrion", "Chant", "Creed", "Despair", "Excellence", "Fear", "Glory", "Hope", "Ideal", "Music", "Nowhere", "Open", "Poetry", "Quest", "Random", "Reverence", "Sorrow", "Temerity", "Torment", "Weary"
+];
