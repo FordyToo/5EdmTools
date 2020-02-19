@@ -13,5 +13,5 @@ var cantrip = [
 ];
 
 var first = [
-    'Absorb Elements', 'Alarm', 'Animal Friendship', 'Armor of Agathys', 'Arms of Hadar', 'Bane', 'Beast Bond', 'Bless', 'Burning Hands', 'Catapult', 'Charm Person'    
+    'Absorb Elements', 'Alarm', 'Animal Friendship', 'Armor of Agathys', 'Arms of Hadar', 'Bane', 'Beast Bond', 'Bless', 'Burning Hands', 'Catapult', 'Charm Person', 'Chromatic Orb', 'Color Spray', 'Command', 'Compelled Duel', 'Comprehend Languages', 'Create or Destroy Water', 'Cure Wounds', 'Detect Evil and Good', 'Detect Magic', 'Detect Poison and Disease', 'Disguise Self', 'Dissonant Whispers', 'Divine Favor', 'Earth Tremor', 'Ensnaring Strike', 'Entangle', 'Expeditious Retreat', 'Faerie Fire', 'False Life', 'Feather Fall', 'Find Familiar', 'Fog Cloud', 'Goodberry', 'Grease', 'Guiding Bolt', 'Hail of Thorns', 'Healing Word', 'Hellish Rebuke', 'Heroism', 'Hex', "Hunter's Mark", 'Ice Knife', 'Identify', 'Illusory Script', 'Inflict Wounds', 'Jump', 'Longstrider', 'Mage Armor', 'Magic Missile', 'Protection From Evil and Good', 'Purify Food and Drink', 'Ray of Sickness', 'Sanctuary', 'Searing Smite', 'Shield', 'Shield of Faith', 'Silent Image', 'Sleep', 'Speak With Animals', "Tasha's Hideous Laughter", "Tenser's Floating Disk", 'Thunderous Smite', 'Thunderwave', 'Unseen Servant', 'Witch Bolt', 'Wrathful Smite'    
 ];
