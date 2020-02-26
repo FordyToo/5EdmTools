@@ -1,41 +1,142 @@
 {
     "Acid Splash" : {
-        "level" : 0
+        "level" : 0,
+        "class" : "sorcerer wizard"
     },
     "Blade Ward" : {
-        "level" : 0
+        "level" : 0,
+        "class" : "bard sorcerer warlock wizard"
     },
     "Chill Touch" : {
-        "level" : 0
+        "level" : 0,
+        "class" : "sorcerer warlock wizard"
     },
     "Control Flames" : {
-        "level" : 0
+        "level" : 0,
+        "calss" : "druid sorcerer wizard"
     },
     "Create Bonfire" : {
-        "level" : 0
+        "level" : 0,
+        "class" : "druid sorcerer warlock wizard"
     },
     "Dancing Lights" : {
-        "level" : 0
+        "level" : 0,
+        "class" : "bard sorcerer wizard"
     },
     "Druidcraft" : {
-        "level" : 0
+        "level" : 0,
+        "class" : "druid"
     },
     "Eldritch Blast" : {
-        "level" : 0
+        "level" : 0,
+        "class" : "warlock"
     },
     "Fire Bolt" : {
-        "level" : 0
+        "level" : 0,
+        "class" : "sorcerer wizard"
     },
     "Friends" : {
-        "level" : 0
+        "level" : 0,
+        "class" : "bard sorcerer warlock wizard"
     },
     "Frostbite" : {
-        "level" : 0
+        "level" : 0,
+        "class" : "druid sorcerer warlock wizard"
     },
     "Guidance" : {
-        "level" : 0
+        "level" : 0,
+        "class" : "cleric druid"
     },
     "Gust" : {
-        "level" : 0
-    }
+        "level" : 0,
+        "class" : "druid sorcerer wizard"
+    },
+    "Light" : {
+        "level" : 0,
+        "class" : "bard cleric sorcerer wizard"
+    },
+    "Mage Hand" : {
+        "level" : 0,
+        "class" : "bard sorcerer warlock wizard"
+    },
+    "Magic Stone" : {
+        "level" : 0,
+        "class" : "druid warlock"
+    },
+    "Mending" : {
+        "level" : 0,
+        "class" : "bard cleric druid sorcerer wizard"
+    },
+    "Message" : {
+        "level" : 0,
+        "class" : "bard sorcerer wizard"
+    },
+    "Minor Illusion" : {
+        "level" : 0,
+        "class" : "bard sorcerer warlock wizard"
+    },
+    "Mold Earth" : {
+        "level" : 0,
+        "class" : "druid sorcerer wizard"
+    },
+    "Poison Spray" : {
+        "level" : 0,
+        "class" : "druid sorcerer warlock wizard"
+    },
+    "Prestidigitation" : {
+        "level" : 0,
+        "class" : "bard sorcerer warlock wizard"
+    },
+    "Produce Flame" : {
+        "level" : 0,
+        "class" : "druid"
+    },
+    "Ray of Frost" : {
+        "level" : 0,
+        "class" : "sorcerer wizard"
+    },
+    "Resistance" : {
+        "level" : 0,
+        "class" : "cleric druid"
+    },
+    "Sacred Flame" : {
+        "level" : 0,
+        "class" : "cleric"
+    },
+    "Shape Water" : {
+        "level" : 0,
+        "class" : "druid sorcerer wizard"
+    },
+    "Shillelagh" : {
+        "level" : 0,
+        "class" : "druid"
+    },
+    "Shocking Grasp" : {
+        "level" : 0,
+        "class" : "sorcerer wizard"
+    },
+    "Spare the Dying" : {
+        "level" : 0,
+        "class" : "cleric"
+    },
+    "Thaumaturgy" : {
+        "level" : 0,
+        "class" : "cleric"
+    },
+    "Thorn Whip" : {
+        "level" : 0,
+        "class" : "druid"
+    },
+    "Thunderclap" : {
+        "level" : 0,
+        "class" : "bard druid sorcerer warlock wizard"
+    },
+    "True Strike" : {
+        "level" : 0,
+        "class" : "bard sorcerer warlock wizard"
+    },
+    "Vicious Mockery" : {
+        "level" : 0,
+        "class" : "bard"
+    },
 }
